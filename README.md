@@ -12,7 +12,7 @@
 
 **a. Link to a video of your HelloYou sketch running.**
 
->> video recorded
+[Hello You and MotionTracked Project](https://youtu.be/jyNu1Knw9kU)
 
 ## Part B. Web Camera
 
@@ -225,4 +225,8 @@ pi@ixe137:~$ diff -d IDD-Fa19-Lab7/pictureServer.js helloYou/server.js
 
 **a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
 
+Used Motion to monitor the Raspberry Pi bench in the MakerLAB. The webserver shows a live view of the bench. When a motion event is detected it calls sendEmail.py, a script to automatically ping my email alerting me of the intrustion.
+
 **b. Upload a video of your working modified project**
+
+[Hello You and Modified Project](https://youtu.be/jyNu1Knw9kU)
